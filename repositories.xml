@@ -1,0 +1,12 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>technohacker</name>
+    <description>Ebuilds to install ROCM on Gentoo</description>
+    <homepage>https://github.com/Technohacker/gentoo</homepage>
+    <owner>
+      <email>technohacker1995@gmail.com</email>
+      <name>Technohacker</name>
+    </owner>
+    <source type="git">https://github.com/Technohacker/gentoo.git</source>
+  </repo>
+</repositories>
