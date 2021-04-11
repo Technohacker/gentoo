@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<!-- maintainer-needed -->
+	<use>
+		<flag name="system-vulkan">Use the system-wide vulkan library instead of bundled</flag>
+		<flag name="nvml">Add support for the NVIDIA Management Library</flag>
+		<flag name="xnvctrl">Add support for libXNVCtrl</flag>
+		<flag name="dlsym">Enable dlsym support</flag>
+	</use>
 </pkgmetadata>
